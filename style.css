@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(128, 128, 128, 0.41);
+}
+h1{
+    padding: 10px;
+}
+.main{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 70vh;
+    width: 50%;
+    background-color:gray;
+    margin:70px auto;
+    border-radius: 200px;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50%;
+    pointer-events: painted;
+}
+button:hover{
+    background-color: yellow;
+    transition: all 1s ;
+}

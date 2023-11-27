@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On/Off Bulb-sultan-514</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    
+  <div class="main">
+    <h1>Light On/Off-App-514</h1>
+    <button onclick="document.getElementById('image1').src='./Images/on-bulb.gif'">On</button>
+     
+    <img id="image1" src="./Images/off-bulb.gif" style="width: 100px;">
+    
+    <button onclick="document.getElementById('image1').src='./Images/off-bulb.gif'">Off</button>
+
+    <img id="image2" onclick="changeImage()" src="./Images/off-bulb.gif" width="100" height="180">
+  </div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
